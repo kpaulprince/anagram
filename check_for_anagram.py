@@ -3,7 +3,8 @@
 class Anagram():
     def __init__(self):
         pass
-
+        
+    @classmethod
     def get_list(self):
         l = []
         length = raw_input('Enter length of list: ')
@@ -11,6 +12,7 @@ class Anagram():
             l.append(raw_input('Enter element #{}: '.format(item)))
         return l
 
+    @classmethod
     def compare(self,x,y):
         temp_y = y
         for c in x:

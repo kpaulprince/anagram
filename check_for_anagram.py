@@ -3,7 +3,7 @@
 class Anagram():
     def __init__(self):
         pass
-        
+
     @classmethod
     def get_list(self):
         l = []
